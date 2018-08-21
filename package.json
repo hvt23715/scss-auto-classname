@@ -12,7 +12,8 @@
     ],
     "activationEvents": [
         "onCommand:extension.sayHello",
-        "onLanguage:scss"
+        "onLanguage:scss",
+        "onLanguage:javascript"
     ],
     "main": "./out/extension",
     "contributes": {
@@ -21,6 +22,11 @@
                 "id": "scss",
                 "extensions": [ ".scss" ],
                 "aliases": [ "scss" ]
+            },
+            {
+                "id": "javascript",
+                "extensions": [ ".js" ],
+                "aliases": [ "javascript" ]
             }
         ],
         "commands": [
